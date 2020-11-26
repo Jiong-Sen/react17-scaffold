@@ -5,16 +5,30 @@
   "dependencies": {
     "react": "17.0.0",
     "react-dom": "17.0.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.0"
   },
   "devDependencies": {
     "@types/react": "16.9.19",
     "@types/react-dom": "16.9.5",
-    "typescript": "3.7.5"
+    "@types/react-router-dom": "^5.1.6",
+    "customize-cra": "^1.0.0",
+    "customize-cra-react-refresh": "^1.1.0",
+    "node-sass": "^5.0.0",
+    "typescript": "3.7.5",
+    "babel-plugin-import": "^1.13.0",
+    "chalk": "^4.1.0",
+    "compression-webpack-plugin": "^6.0.2",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.21.5",
+    "http-proxy-middleware": "^0.19.1",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "react-app-rewired": "^2.1.6",
+    "uglifyjs-webpack-plugin": "^2.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
